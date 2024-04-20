@@ -68,8 +68,9 @@ ul li a {
 
 .left-content {
   flex: 1;
-  padding: 20px;
+  padding: 50px;
   text-align: left;
+  width: 50vw;
 }
 
 .left-content h2 {
@@ -91,6 +92,7 @@ ul li a {
 .right-content {
   flex: 1;
   padding: 20px;
+
 }
 
 .right-content img {
@@ -174,9 +176,56 @@ main {
   justify-content: center;
   align-items: center;
 }
-
+#right-container{
+  width: 550px;
+  height: 300px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+#upload_container{
+  width: 350px;
+  height: 250px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 50px;
+  position: relative;
+}
+ #uploadImage{
+  height: 30%;
+  width: 80%;
+ }
 .status {
   margin-top: 3rem;
   width: 1200px;
   height: auto;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+}
+.option:not(:last-child) {
+border-bottom: 1px solid #6f6f6f;
+}
+
+.option .change-btn{
+background-color: white;
+border-radius: 35px;
+padding: 10px 25px;
+border: 1px solid #6f6f6f;
+font-weight: bold;
+
+}
+
+.last-synced {
+  margin-top: 10px;
+  color: rgba(128, 128, 128, 0.457);
+}
+#loading{
+  
 }

@@ -30,23 +30,18 @@
         <div class="left-content">
             <h2>Upload your images</h2>
             <p>Upload your images effortlessly and seamlessly to our platform. We will automatically detect faces and compare them with our databases.</p>
-            <a href="#" class="upload-btn">Upload Files</a>
+            <a href="uploadsettings.html" class="upload-btn">Upload Files</a>
         </div>
-        <div class="right-content">
-            <img src="assets/img/drag&drop.png" alt="Placeholder Image">
-        </div>
+        <div id="#upload_container">
+          <label for="fileInput">
+            <img src="assets/img/drag&drop.png" alt="Placeholder Image" id="uploadImage">
+        </label>
+        <input type="file" id="fileInput" style="display:none;">
         <div id="upload-section">
-            <h2>File Upload</h2>
-            <form action="/upload" method="post" enctype="multipart/form-data">
-              <input type="file" name="files" multiple>
-              <input type="submit" value="Upload Files">
-            </form>
-            <div id="file-list">
-              <p>File1.jpg <span class="status">Uploading...</span></p>
-              <p>File2.jpg <span class="status">Upload complete</span></p>
-              <p>File3.jpg <span class="status warning">Warning: No face detected</span></p>
+          <p>Upload your images here</p>
             </div>
           </div>
+        </div>
     </main>
 </div>
 </body>
