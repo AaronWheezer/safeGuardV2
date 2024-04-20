@@ -144,3 +144,23 @@ main {
     width: 70px;
     height: 70px;
 }
+
+.active{
+    color: #7161EC;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #7161EC;
+}
+
+#img_right{
+    position: absolute;
+    right: 0;
+    height: 30vh;
+    top: 10%;
+
+}
+#img_left{
+    position: absolute;
+    left: 0;
+    height: 20vh;
+    top: 10%;
+}
