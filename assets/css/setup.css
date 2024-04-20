@@ -4,15 +4,16 @@
     justify-content: center;
     width: 80vw;
     margin: 0 auto;
-    margin-top: 10vh;
-    height: 80vh;
+    margin-top: 5%;
+    height: 100%;
 }
 .container-right {
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: 100%;
 }
 .container-left {
+    height: 100%;
     margin-right: 10vw;
 }
 
@@ -51,3 +52,6 @@
     width: 20vh;
 }
 
+#live_feeds{
+    border-bottom: none !important;
+}
