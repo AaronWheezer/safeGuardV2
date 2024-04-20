@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+article {
+    display: flex;
+    padding: 20px;
+}
+
+article ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+article ul li {
+    margin-bottom: 10px;
+}
+
+article ul li img {
+    width: 100%;
+    height: auto;
+}

@@ -4,7 +4,7 @@ body {
     padding: 0;
   }
   
-  nav {
+  nav { 
     display: flex;
     justify-content: space-between;
     align-items: center;
