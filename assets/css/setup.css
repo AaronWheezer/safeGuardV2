@@ -1,13 +1,19 @@
-.container{
+
+.containerSetup{
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 80%;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 10vh;
+    height: 80vh;
 }
 .container-right {
     display: flex;
     justify-content: center;
-    align-items: center;
+    height: 80vh;
+}
+.container-left {
+    margin-right: 10vw;
 }
 
 .container-right ul {
