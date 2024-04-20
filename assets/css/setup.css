@@ -4,22 +4,23 @@
     align-items: center;
     width: 80%;
 }
-article {
+.container-right {
     display: flex;
-    padding: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-article ul {
+.container-right ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-article ul li {
+.container-right ul li {
     margin-bottom: 10px;
 }
 
-article ul li img {
+.container-right ul li img {
     width: 100%;
     height: auto;
 }
