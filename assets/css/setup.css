@@ -30,3 +30,24 @@
     width: 100%;
     height: auto;
 }
+
+#live{
+    width: 50vw;
+    height: 50vh;
+}
+.container-left > p {
+    font-size: 1.5rem;
+    color: #7161EC;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#camera{
+    color: gray;
+    font-size: 1rem;
+}
+
+#carousel > img{
+    height: 20vh;
+    width: 20vh;
+}
+
