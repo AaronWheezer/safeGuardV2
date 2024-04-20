@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/upload.css">
+    <title>SafeGuard</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img id="logo" src="assets/img/logo.png" alt="Logo">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="setup.html">Setup</a></li>
+              <li><a href="upload.html" class="active">Upload</a></li>
+              <li><a href="#">Data</a></li>
+            </ul>
+            <div class="user">
+              <img src="assets/img/profiel_foto.jpg" alt="User Icon">
+              <span>Username</span>
+            </div>
+          </nav>
+          <div class="header-image">
+            <img src="assets/img/status.png" alt="Header Image" class="status">
+        </div>
+    </header>
+    <main>
+    <div class="container">
+        <div class="left-content">
+            <h2>Upload your images</h2>
+            <p>Upload your images effortlessly and seamlessly to our platform. We will automatically detect faces and compare them with our databases.</p>
+            <a href="#" class="upload-btn">Upload Files</a>
+        </div>
+        <div class="right-content">
+            <img src="assets/img/drag&drop.png" alt="Placeholder Image">
+        </div>
+        <div id="upload-section">
+            <h2>File Upload</h2>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+              <input type="file" name="files" multiple>
+              <input type="submit" value="Upload Files">
+            </form>
+            <div id="file-list">
+              <p>File1.jpg <span class="status">Uploading...</span></p>
+              <p>File2.jpg <span class="status">Upload complete</span></p>
+              <p>File3.jpg <span class="status warning">Warning: No face detected</span></p>
+            </div>
+          </div>
+    </main>
+</div>
+</body>
+</html>
